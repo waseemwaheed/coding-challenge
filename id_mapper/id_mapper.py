@@ -64,7 +64,7 @@ def main(args):
     if args.o:
         df.to_csv(args.o, index=False)
     else:
-        df.to_csv("csu_" + args.i, index=False)
+        df.to_csv("processed_" + args.i, index=False)
 
     # clean-up
     driver.close()
