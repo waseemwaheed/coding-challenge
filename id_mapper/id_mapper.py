@@ -3,8 +3,8 @@ from webdriver_manager.chrome import ChromeDriverManager
 import pandas as pd
 import win32com.client
 import time
-from secrets import __LOGIN_URL__, __STUDENT_URL__, USRNAME, PSWRD
 import argparse
+from secrets import __LOGIN_URL__, __STUDENT_URL__, USRNAME, PSWRD
 
 __DELAY__ = 2  # don't reduce
 
